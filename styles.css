@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Roboto&display=swap');
+
+body {
+    background: #e5e0ec;
+}
+
+.main button{
+    display: block;
+}
+
+.container {
+    max-width: 768px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    
+}
+
+.inp {
+    height: 20px;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.inline {
+    display: inline;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: #e0f5db;
+    border-radius: 5px;
+    border: 1px solid rgb(141, 141, 141);
+    font-size: 14px;
+}
+
+.text {
+    margin-bottom: 3px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inp-center {
+    margin-left: 26%;
+}

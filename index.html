@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' href='styles.css' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class='container'>
+            <main class="main">
+                <p class="text">Соотношение</p>
+                <input type="number" id="ratio1" required size="8" class="inp">
+                <input type="number" id="ratio2" size="8" class="inp">
+                <p class="text">Сумма</p>
+                <input type="number" id="sum" size="8" class="inp inp-center">
+                <p class="text">Размер сторон X и Y</p>
+                <input type="number" id="Xside" size="8" class="inp">
+                <input type="number" id="Yside" size="8" class="inp inline">
+
+                <button class="btn" type="button" onclick="calculate_values()">
+                    Рассчитать
+                </button>
+            </main>
+        </div>
+    <script src='app.js'></script>
+    </body>
+</html>
