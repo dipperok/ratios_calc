@@ -55,3 +55,9 @@ body {
 .inp-center {
     margin-left: 26%;
 }
+
+@media (max-width: 435px) {
+    .inp {
+        margin-left: 26%;
+    }
+}
